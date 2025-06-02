@@ -18,6 +18,11 @@
     font-weight: 900;
     padding-left: 10%;
 }
+@media (max-width:600px) {
+    .upper-text-of-left-hero-secton{
+        font-size: 40px;
+    }
+}
 .lower-text-of-left-hero-secton{
     margin: 0;
     font-size: 30px;
