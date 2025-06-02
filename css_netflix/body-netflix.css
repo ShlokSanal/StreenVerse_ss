@@ -18,16 +18,19 @@
     font-weight: 900;
     padding-left: 10%;
 }
-@media (max-width:600px) {
-    .upper-text-of-left-hero-secton{
-        font-size: 40px;
-    }
-}
 .lower-text-of-left-hero-secton{
     margin: 0;
     font-size: 30px;
     font-weight: 700;
     padding-left: 10%;
+}
+@media (max-width:800px) {
+    .upper-text-of-left-hero-secton{
+        font-size: 30px;
+    }
+    .lower-text-of-left-hero-secton{
+        font-size: 25px;
+    }
 }
 .right-hero-section{
     flex: 1;
@@ -304,4 +307,17 @@
 }
 .up-arrow:active{
     opacity: 0.7;
+}
+@media (max-width:800px) {
+    .video-name{
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+    .video-about{
+        margin-top: 2px;
+        margin-bottom: 30px;
+    }
+    .watch-button{
+        height:20px;
+    }
 }

@@ -129,9 +129,15 @@
         opacity: 1;
     }
     .search-bar{
-        width: 70%;
+        width: 65%;
         max-width: 300px;
     }
+    .logo{
+    margin-right: 0px;
+    }
+    .left-header{
+    margin-right: 0px;
+}
 }
 @media (min-width:800px) {
     .hamberger-menu{
