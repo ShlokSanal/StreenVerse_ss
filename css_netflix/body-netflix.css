@@ -39,9 +39,16 @@
     align-items: center;
     padding-top: 30px;
 }
-.img-for-hero-section{
-    width: 80%;
-    max-width: 550px;
+#head{
+    animation: head 2s ease-in-out infinite;
+}
+@keyframes head {
+    0%,100%{
+        transform: rotate(-5deg);
+    }
+    50%{
+        transform: rotate(5deg);
+    }
 }
 .left-hero-section .watch-now-button{
     margin-top: 20px;
