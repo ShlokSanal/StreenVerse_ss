@@ -147,4 +147,7 @@
     .Navigation-button{
         margin-right: 25px;
     }
+    .Navigation-div{
+        width: 400px;
+    }
 } 
